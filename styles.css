@@ -1,0 +1,91 @@
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(228, 233, 250);
+}
+
+#container {
+  max-width: 600px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+#card {
+  border-radius: 7px;
+  box-shadow: 0 5px 10px rgb(185, 185, 185);
+  text-align: center;
+  background-color: white;
+  padding: 2rem;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 10px -5px 0 lightskyblue;
+}
+
+h1 {
+  text-align: center;
+}
+
+#line {
+  background-color: lightskyblue;
+  height: 4px;
+  width: 60px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.chevron {
+  color: lightskyblue;
+  background: transparent;
+  border: none;
+  font-size: 1.5rem;
+  margin: .3rem;
+  cursor: pointer;
+}
+
+#random {
+  background-color: rgb(233, 239, 241);
+  border: rgb(137, 210, 235) 2px solid;
+  padding: .2rem .3rem;
+  border-radius: 10px;
+  color: rgb(83, 166, 218);
+  cursor: pointer;
+  margin-top: .5rem;
+  
+}
+
+h4 {
+  letter-spacing: .3rem;
+  margin-bottom: 0.5rem;
+}
+h5 {
+  color: rgb(78, 180, 243);
+  font-weight: normal;
+  margin: 0;
+}
+
+#quote-cont {
+    position: relative;
+    width: 200px;
+    margin: auto;
+  }
+
+.fa-quote-right {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: white;
+  background-color: rgb(122, 199, 247);
+  font-size: 1.3rem;
+  padding: .7rem;
+  border-radius: 50%;
+}
